@@ -1,0 +1,26 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: app-local.py",
+            "type": "python",
+            "request": "launch",
+            "program": "app-local.py",
+            "args": ["--input_audio_max_duration","-1","--server_name","0.0.0.0","--server_port","17860","--auto_parallel","False"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: app-shared.py",
+            "type": "python",
+            "request": "launch",
+            "program": "app-shared.py",
+            "args": ["--input_audio_max_duration","-1","--server_name","0.0.0.0","--server_port","17860","--auto_parallel","False"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+    ]
+}

@@ -227,7 +227,8 @@ class WhisperTranscriber:
                     download.insert(0, downloadAllPath)
 
                 return download, text, vtt
-
+            except Exception as e:
+                print(e)
             finally:
                 # Cleanup source
                 if self.deleteUploadedFiles:
